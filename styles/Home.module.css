@@ -43,6 +43,8 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  color: #FF6EFF;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .title,
@@ -51,9 +53,11 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1.5rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  color: #66FF66;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .code {
