@@ -28,6 +28,16 @@
   flex-grow: 1;
 }
 
+.main::before {
+  content:"";
+  background-color:#000;
+  position: absolute;
+  height: 100%;
+  width: 200vw;
+  left: -100vw;
+  z-index: -1;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -44,7 +54,7 @@
   line-height: 1.15;
   font-size: 4rem;
   color: #FF6EFF;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
 }
 
 .title,
@@ -57,7 +67,7 @@
   line-height: 1.5;
   font-size: 1.5rem;
   color: #66FF66;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
 }
 
 .code {

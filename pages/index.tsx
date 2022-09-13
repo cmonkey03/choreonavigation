@@ -11,38 +11,38 @@ const Home: NextPage = () => {
         <meta name='description' content='A Embodied Technological Research Project by Russell Patrick Brown' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
       <main className={styles.main}>
-        <video autoPlay loop muted style={{
-            position: 'fixed',
-            zIndex: -1,
-            minWidth: '100%',
-            top: 0,
-            maxWidth: '100px',
-            objectFit: 'cover',
-        }}>
-          <source src='/choreonavigation_hero.mp4' type='video/mp4'/>
-        </video>
-
-        <h1 className={styles.title}>
-          Choreo-navigation
-        </h1>
-
-        <h2 className={styles.description}>
-          An embodied techno-research project led by{' '}
-          <a href='https://russellpatrickbrown.com'>Russell Patrick Brown</a>
-        </h2>
+        <div className={styles.hero}>
+          <h1 className={styles.title}>
+            Choreo-navigation
+          </h1>
+          <h2 className={styles.description}>
+            An embodied techno-research project led by{' '}
+            <a href='https://russellpatrickbrown.com'>Russell Patrick Brown</a>
+          </h2>
+        </div>
 
         <p className={styles.description}>
           Choreonavigation represents an embodied wayfinding through the technology that has shaped, transformed,
           evolved and regressed the human body.
         </p>
 
-        <h2 className={styles.description}>
-          Works
-        </h2>
+        {/* <video autoPlay loop muted poster='/russell_dance_ireland.jpg' style={{
+          position: 'fixed',
+          zIndex: -1,
+          minWidth: '100%',
+          top: 0,
+          maxWidth: '100px',
+          objectFit: 'cover',
+        }}>
+          <source src='/choreonavigation_hero.mp4' type='video/mp4'/>
+        </video> */}
 
-        <div className={styles.grid}>
+        {/* <h2 className={styles.description}>
+          Works
+        </h2> */}
+
+        {/* <div className={styles.grid}>
           <a href='https://nextjs.org/docs' className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -70,10 +70,10 @@ const Home: NextPage = () => {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
           target='_blank'
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
             <Image src='/vercel.svg' alt='Vercel Logo' width={72} height={16} />
           </span>
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
